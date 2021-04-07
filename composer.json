@@ -9,16 +9,16 @@
             "email": "eligant4710@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Eligant\\Backup\\": "/src"
+            "maksymKalashnyk\\Backup\\": "/src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eligant\\Backup\\BackupServiceProvider"
+                "maksymKalashnyk\\Backup\\BackupServiceProvider"
             ]
         }
     },
