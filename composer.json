@@ -1,0 +1,26 @@
+{
+    "name": "eligant/backup",
+    "description": "axdi-16",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kalashnyk Maksym",
+            "email": "eligant4710@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Eligant\\Backup\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eligant\\Backup\\BackupServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
